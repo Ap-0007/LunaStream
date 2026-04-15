@@ -39,5 +39,5 @@ Quick Start
                   MIT License - Feel free to use and modify!
 
                   ---
-                  Created with love by Antigravity
+                  Created with love 
                   
