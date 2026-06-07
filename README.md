@@ -1,43 +1,42 @@
-#  LunaStream
+# Lunastream
 
-Fast. Smooth. Real-time.
+Fast. Smooth. Real-time screen sharing.
 
-LunaStream is a high-performance, low-latency screen sharing application built with WebRTC and Flask-SocketIO. It's designed for seamless sharing between devices on a local network with near-zero delay.
+![Language](https://img.shields.io/badge/language-Python-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![GitHub](https://img.shields.io/github/stars/Ap-0007/LunaStream?style=social)
 
-Features
-- Ultra-Low Latency: Direct P2P streaming using WebRTC.
-- 60 FPS Performance: Optimized for smooth motion and real-time interaction.
-- Premium UI: Sleek, glassmorphic dark-mode dashboard.
-- Easy Discovery: Auto-generated QR codes and room codes for quick connection.
-- Performance Optimized: Bitrate capping and adaptive quality for consistent speed.
+## 📖 About
 
-Tech Stack
-- Backend: Python, Flask, Flask-SocketIO.
-- Frontend: Vanilla JavaScript (WebRTC API), CSS (Glassmorphism), HTML5.
-- Signaling: Socket.io.
+Fast. Smooth. Real-time screen sharing.
 
-Quick Start
-1. Clone and Setup:
-   git clone https://github.com/Ap-0007/LunaStream.git
-      cd LunaStream
+## 🛠️ Tech Stack
 
-      2. Install Dependencies:
-         pip install -r requirements.txt
+- **Primary Language:** Python
 
-         3. Run the Server:
-            python server.py
+## 🚀 Getting Started
 
-            4. Start Sharing:
-               - Open http://your-ip:5005 on your laptop.
-                  - Scan the QR code or enter the Room ID on your phone.
+```bash
+# Clone the repository
+git clone https://github.com/Ap-0007/LunaStream.git
+cd LunaStream
+```
 
-                  Security
-                  - Peer-to-Peer local streaming ensures your screen data doesn't leave your network.
-                  - No third-party servers involved except for initial signaling.
+```bash
+# Install dependencies
+pip install -r requirements.txt
 
-                  License
-                  MIT License - Feel free to use and modify!
+# Run the application
+python main.py
+```
 
-                  ---
-                  Created with love 
-                  
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to open an [issue](https://github.com/Ap-0007/LunaStream/issues) or submit a pull request.
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Built by [vanta.nox](https://github.com/Ap-0007)**
